@@ -1,0 +1,752 @@
+[
+
+	{
+		"varname_my_list": "localnews_countries_list",
+		"varname_current": "localnews_countries_current",
+		"varname_query_label": "localnews_countries_query_label",
+		"varname_top_item": "localnews_countries_top_item",
+		"name": "country",
+		"plural": "countries",
+		"queries": [{
+			"label": "google news",
+			"value": "https://www.google.com/search?tbm=nws&q=${item}"
+		}, {
+			"label": "facebook",
+			"value": "https://www.facebook.com/search/latest/?q=${item}"
+		}, {
+			"label": "twitter",
+			"value": "https://twitter.com/search?q=${item}"
+		}, {
+			"label": "wikipedia",
+			"value": "https://en.wikipedia.org/w/index.php?title=Special:Search&search=${item}"
+		}, {
+			"label": "wikileaks",
+			"value": "https://search.wikileaks.org/?query=${item}&new_search=True&order_by=most_relevant#results"
+		}, {
+			"label": "google news economy",
+			"value": "https://www.google.com/search?tbm=nws&q=economy of ${item}"
+		}, {
+			"label": "google news politics",
+			"value": "https://www.google.com/search?tbm=nws&q=politics of ${item}"
+		}, {
+		    "label": "united nations",
+		    "value": "https://search.un.org/results.php?query=${item}&lang=en"
+		}, {
+		    "label": "property: geography",
+		    "value": "https://encrypted.google.com/search?q=${item} geography"
+		}, {
+		    "label": "property: culture",
+		    "value": "https://encrypted.google.com/search?q=${item} culture"
+		}, {
+		    "label": "property: politics",
+		    "value": "https://encrypted.google.com/search?q=${item} politics"
+		}, {
+		    "label": "property: state",
+		    "value": "https://encrypted.google.com/search?q=${item} state"
+		}, {
+		    "label": "property: diplomacy",
+		    "value": "https://encrypted.google.com/search?q=${item} diplomacy"
+		}, {
+		    "label": "property: government",
+		    "value": "https://encrypted.google.com/search?q=${item} government"
+		}, {
+		    "label": "property: press",
+		    "value": "https://encrypted.google.com/search?q=${item} press"
+		}, {
+		    "label": "property: blog",
+		    "value": "https://encrypted.google.com/search?q=${item} blog"
+		}, {
+		    "label": "property: currency",
+		    "value": "https://encrypted.google.com/search?q=${item} currency"
+		}, {
+		    "label": "property: history",
+		    "value": "https://encrypted.google.com/search?q=${item} history"
+		}, {
+		    "label": "property: health care",
+		    "value": "https://encrypted.google.com/search?q=${item} health care"
+		}, {
+		    "label": "property: law",
+		    "value": "https://encrypted.google.com/search?q=${item} law"
+		}, {
+		    "label": "property: jurisdiction",
+		    "value": "https://encrypted.google.com/search?q=${item} jurisdiction"
+		}, {
+		    "label": "property: sovereign",
+		    "value": "https://encrypted.google.com/search?q=${item} sovereign"
+		}, {
+		    "label": "property: computer security",
+		    "value": "https://encrypted.google.com/search?q=${item} computer sercurity"
+		}, {
+		    "label": "property: surveillance",
+		    "value": "https://encrypted.google.com/search?q=${item} surveillance"
+		}, {
+		    "label": "property: army",
+		    "value": "https://encrypted.google.com/search?q=${item} army"
+		}, {
+		    "label": "property: war",
+		    "value": "https://encrypted.google.com/search?q=${item} war"
+		}],
+		"list": [
+			"China",
+			"United States",
+			"Russia",
+			"France",
+			"United Kingdom",
+
+			"India",
+			"Pakistan",
+			"North Korea",
+			"Israel",
+
+			"Indonesia",
+			"Brazil",
+			"Nigeria",
+			"Bangladesh",
+			"Japan",
+			"Mexico",
+			"Philippines",
+			"Ethiopia",
+			"Vietnam",
+			"Egypt",
+			"Democratic Republic of the Congo",
+			"Germany",
+			"Turkey",
+			"Thailand",
+			"Italy",
+			"South Africa",
+			"Tanzania",
+			"Myanmar",
+			"South Korea",
+			"Colombia",
+			"Kenya",
+			"Spain",
+			"Argentina",
+			"Ukraine",
+			"Sudan",
+			"Algeria",
+			"Poland",
+			"Uganda",
+			"Iraq",
+			"Canada",
+			"Morocco",
+			"Saudi Arabia",
+			"Malaysia",
+			"Uzbekistan",
+			"Peru",
+			"Venezuela",
+			"Nepal",
+			"Ghana",
+			"Afghanistan",
+			"Yemen",
+			"Mozambique",
+			"Angola",
+			"Australia",
+			"Taiwan",
+			"Cameroon",
+			"Ivory Coast",
+			"Madagascar",
+			"Sri Lanka",
+			"Niger",
+			"Romania",
+			"Burkina Faso",
+			"Syria",
+			"Mali",
+			"Chile",
+			"Kazakhstan",
+			"Netherlands",
+			"Malawi",
+			"Ecuador",
+			"Guatemala",
+			"Zambia",
+			"Cambodia",
+			"Senegal",
+			"Chad",
+			"Zimbabwe",
+			"Guinea",
+			"South Sudan",
+			"Rwanda",
+			"Belgium",
+			"Tunisia",
+			"Cuba",
+			"Somalia",
+			"Haiti",
+			"Bolivia",
+			"Greece",
+			"Benin",
+			"Czech Republic",
+			"Portugal",
+			"Burundi",
+			"Dominican Republic",
+			"Sweden",
+			"Jordan",
+			"United Arab Emirates",
+			"Hungary",
+			"Azerbaijan",
+			"Belarus",
+			"Austria",
+			"Honduras",
+			"Tajikistan",
+			"Switzerland",
+			"Papua New Guinea",
+			"Bulgaria"
+		]
+	},
+
+	{
+		"varname_my_list": "localnews_company_list",
+		"varname_current": "localnews_company_current",
+		"varname_query_label": "localnews_company_query_label",
+		"varname_top_item": "localnews_company_top_item",
+		"name": "company",
+		"plural": "companies",
+		"queries": [{
+			"label": "google news",
+			"value": "https://www.google.com/search?tbm=nws&q=${item}"
+		}, {
+			"label": "facebook",
+			"value": "https://www.facebook.com/search/latest/?q=${item}"
+		}, {
+			"label": "twitter",
+			"value": "https://twitter.com/search?q=${item}"
+		}, {
+			"label": "wikipedia",
+			"value": "https://en.wikipedia.org/w/index.php?title=Special:Search&search=${item}"
+		}, {
+			"label": "wikileaks",
+			"value": "https://search.wikileaks.org/?query=${item}&new_search=True&order_by=most_relevant#results"
+		}, {
+		    "label": "property: profit",
+		    "value": "https://encrypted.google.com/search?q=${item} profit"
+		}, {
+		    "label": "property: headquarters",
+		    "value": "https://encrypted.google.com/search?q=${item} headquarters"
+		}, {
+		    "label": "property: culture",
+		    "value": "https://encrypted.google.com/search?q=${item} culture"
+		}, {
+		    "label": "property: finance",
+		    "value": "https://encrypted.google.com/search?q=${item} finance"
+		}, {
+		    "label": "property: shares",
+		    "value": "https://encrypted.google.com/search?q=${item} shares"
+		}, {
+		    "label": "property: history",
+		    "value": "https://encrypted.google.com/search?q=${item} history"
+		}, {
+		    "label": "property: legal",
+		    "value": "https://encrypted.google.com/search?q=${item} legal"
+		}, {
+		    "label": "property: jurisdiction",
+		    "value": "https://encrypted.google.com/search?q=${item} jurisdiction"
+		}, {
+		    "label": "property: court case",
+		    "value": "https://encrypted.google.com/search?q=${item} court case"
+		}, {
+		    "label": "property: press",
+		    "value": "https://encrypted.google.com/search?q=${item} press"
+		}, {
+		    "label": "property: computer security",
+		    "value": "https://encrypted.google.com/search?q=${item} computer sercurity"
+		}, {
+		    "label": "property: surveillance",
+		    "value": "https://encrypted.google.com/search?q=${item} surveillance"
+		}],
+		"list": [
+			"Walmart",
+			"State Grid Corporation of China",
+			"Samsung",
+			"Saudi Aramco",
+			"China National Petroleum Corporation",
+			"Sinopec Group",
+			"Royal Dutch Shell",
+			"Exxon Mobil",
+			"Volkswagen",
+			"Toyota",
+			"Apple",
+			"BP",
+			"Berkshire Hathaway",
+			"McKesson",
+			"Hyundai Motor Group",
+			"Glencore",
+			"Industrial and Commercial Bank of China",
+			"Daimler",
+			"United Health",
+			"CVS Health",
+			"Exor",
+			"General Motors",
+			"Ford Motor",
+			"China Construction Bank",
+			"AT&T",
+			"Total",
+			"Foxconn",
+			"General Electric",
+			"China State Construction Engineering",
+			"AmerisourceBergen",
+			"Agricultural Bank of China",
+			"Verizon",
+			"Chevron",
+			"E.ON",
+			"AXA",
+			"Allianz",
+			"Bank of China",
+			"Honda",
+			"Japan Post",
+			"Costco",
+			"BNP Paribas",
+			"Fannie Mae",
+			"Ping An Insurance",
+			"Kroger",
+			"Société Générale",
+			"Amazon",
+			"China Mobile",
+			"SAIC Motor",
+			"SK Group",
+			"Walgreens Boots Alliance",
+			"HP"
+		]
+	},
+
+	{
+		"varname_my_list": "localnews_megacity_list",
+		"varname_current": "localnews_megacity_current",
+		"varname_query_label": "localnews_megacity_query_label",
+		"varname_top_item": "localnews_megacity_top_item",
+		"name": "megacity",
+		"plural": "megacities",
+		"queries": [{
+			"label": "google news",
+			"value": "https://www.google.com/search?tbm=nws&q=${item}"
+		}, {
+			"label": "facebook",
+			"value": "https://www.facebook.com/search/latest/?q=${item}"
+		}, {
+			"label": "twitter",
+			"value": "https://twitter.com/search?q=${item}"
+		}, {
+			"label": "wikipedia",
+			"value": "https://en.wikipedia.org/w/index.php?title=Special:Search&search=${item}"
+		}, {
+			"label": "wikileaks",
+			"value": "https://search.wikileaks.org/?query=${item}&new_search=True&order_by=most_relevant#results"
+		}, {
+		    "label": "property: location",
+		    "value": "https://encrypted.google.com/search?q=${item} location"
+		}, {
+		    "label": "property: wealth",
+		    "value": "https://encrypted.google.com/search?q=${item} wealth"
+		}, {
+		    "label": "property: financial centre",
+		    "value": "https://encrypted.google.com/search?q=${item} financial centre"
+		}, {
+		    "label": "property: press",
+		    "value": "https://encrypted.google.com/search?q=${item} press"
+		}, {
+		    "label": "property: politics",
+		    "value": "https://encrypted.google.com/search?q=${item} politics"
+		}, {
+		    "label": "property: blog",
+		    "value": "https://encrypted.google.com/search?q=${item} blog"
+		}, {
+		    "label": "property: history",
+		    "value": "https://encrypted.google.com/search?q=${item} history"
+		}, {
+		    "label": "property: slums",
+		    "value": "https://encrypted.google.com/search?q=${item} slums"
+		}, {
+		    "label": "property: crime",
+		    "value": "https://encrypted.google.com/search?q=${item} crime"
+		}, {
+		    "label": "property: homelessness",
+		    "value": "https://encrypted.google.com/search?q=${item} homelessness"
+		}, {
+		    "label": "property: traffic congestion",
+		    "value": "https://encrypted.google.com/search?q=${item} traffic congestion"
+		}, {
+		    "label": "property: urban sprawl",
+		    "value": "https://encrypted.google.com/search?q=${item} urban sprawl"
+		}, {
+		    "label": "property: gentrification",
+		    "value": "https://encrypted.google.com/search?q=${item} gentrification"
+		}, {
+		    "label": "property: air pollution",
+		    "value": "https://encrypted.google.com/search?q=${item} air pollution"
+		}, {
+		    "label": "property: health care",
+		    "value": "https://encrypted.google.com/search?q=${item} health care"
+		}, {
+		    "label": "property: surveillance",
+		    "value": "https://encrypted.google.com/search?q=${item} surveillance"
+		}],
+		"list": [
+			"Tokyo",
+			"Seoul",
+			"Jakarta",
+			"Karachi",
+			"Shanghai",
+			"New York City",
+			"Mumbai",
+			"Manila",
+			"Mexico City",
+			"Delhi",
+			"Beijing",
+			"São Paulo",
+			"Lagos",
+			"Wuhan",
+			"Keihanshin",
+			"Guangzhou",
+			"Chongqing",
+			"Cairo",
+			"Los Angeles",
+			"Chengdu",
+			"Dhaka",
+			"Moscow",
+			"Tianjin",
+			"Bangkok",
+			"Istanbul",
+			"Kolkata",
+			"Rio de Janeiro",
+			"London",
+			"Buenos Aires",
+			"Tehran",
+			"Kinshasa",
+			"Paris",
+			"Shenzhen",
+			"Harbin",
+			"Rhine-Ruhr",
+			"Lahore",
+			"Nairobi",
+			"Budapest"
+		]
+	},
+
+	{
+		"varname_my_list": "localnews_ethnic_list",
+		"varname_current": "localnews_ethnic_current",
+		"varname_query_label": "localnews_ethnic_query_label",
+		"varname_top_item": "localnews_ethnic_top_item",
+		"name": "ethnic group",
+		"plural": "ethnic groups",
+		"queries": [{
+			"label": "google news",
+			"value": "https://www.google.com/search?tbm=nws&q=${item}"
+		}, {
+		    "label": "facebook",
+		    "value": "https://www.facebook.com/search/latest/?q=${item}"
+		}, {
+		    "label": "twitter",
+		    "value": "https://twitter.com/search?q=${item}"
+		}, {
+		    "label": "wikipedia",
+		    "value": "https://en.wikipedia.org/w/index.php?title=Special:Search&search=${item}"
+		}, {
+		    "label": "wikileaks",
+		    "value": "https://search.wikileaks.org/?query=${item}&new_search=True&order_by=most_relevant#results"
+		}, {
+		    "label": "property: ancestral",
+		    "value": "https://encrypted.google.com/search?q=${item} ancestral"
+		}, {
+		    "label": "property: language",
+		    "value": "https://encrypted.google.com/search?q=${item} language"
+		}, {
+		    "label": "property: social",
+		    "value": "https://encrypted.google.com/search?q=${item} social"
+		}, {
+		    "label": "property: cultural",
+		    "value": "https://encrypted.google.com/search?q=${item} cultural"
+		}, {
+		    "label": "property: cultural heritage",
+		    "value": "https://encrypted.google.com/search?q=${item} cultural heritage"
+		}, {
+		    "label": "property: origin myth",
+		    "value": "https://encrypted.google.com/search?q=${item} origin myth"
+		}, {
+		    "label": "property: history",
+		    "value": "https://encrypted.google.com/search?q=${item} history"
+		}, {
+		    "label": "property: homeland",
+		    "value": "https://encrypted.google.com/search?q=${item} homeland"
+		}, {
+		    "label": "property: religion",
+		    "value": "https://encrypted.google.com/search?q=${item} religion"
+		}, {
+		    "label": "property: mythology",
+		    "value": "https://encrypted.google.com/search?q=${item} mythology"
+		}, {
+		    "label": "property: ritual",
+		    "value": "https://encrypted.google.com/search?q=${item} ritual"
+		}, {
+		    "label": "property: cuisine",
+		    "value": "https://encrypted.google.com/search?q=${item} cuisine"
+		}, {
+		    "label": "property: dressing style",
+		    "value": "https://encrypted.google.com/search?q=${item} dressing style"
+		}, {
+		    "label": "property: art",
+		    "value": "https://encrypted.google.com/search?q=${item} art"
+		}, {
+		    "label": "property: physical appearance",
+		    "value": "https://encrypted.google.com/search?q=${item} physical appearance"
+		}],
+		"list": [
+			"Han Chinese",
+			"Arabs",
+			"Hindustani;Hindustani ethnicity",
+			"Bengalis",
+			"German;German ethnicity",
+			"Italian;Italian ethnicity",
+			"Japanese;Japanese ethnicity",
+			"Russians",
+			"Punjabi",
+			"Javanese",
+			"English",
+			"French",
+			"Telugu",
+			"Marathi",
+			"Vietnamese",
+			"Korean",
+			"Tamils",
+			"Irish",
+			"Tais",
+			"Turks",
+			"Polish",
+			"Persians",
+			"Gujarati",
+			"Hausa",
+			"Spaniards",
+			"Yoruba"
+		]
+	},
+
+	{
+		"varname_my_list": "localnews_religions_list",
+		"varname_current": "localnews_religions_current",
+		"varname_query_label": "localnews_religions_query_label",
+		"varname_top_item": "localnews_religions_top_item",
+		"name": "religion",
+		"plural": "religions",
+		"queries": [{
+			"label": "google news",
+			"value": "https://www.google.com/search?tbm=nws&q=${item}"
+		}, {
+			"label": "facebook",
+			"value": "https://www.facebook.com/search/latest/?q=${item}"
+		}, {
+			"label": "twitter",
+			"value": "https://twitter.com/search?q=${item}"
+		}, {
+			"label": "wikipedia",
+			"value": "https://en.wikipedia.org/w/index.php?title=Special:Search&search=${item}"
+		}, {
+			"label": "wikileaks",
+			"value": "https://search.wikileaks.org/?query=${item}&new_search=True&order_by=most_relevant#results"
+		}, {
+		    "label": "property: behaviour",
+		    "value": "https://encrypted.google.com/search?q=${item} behaviour"
+		}, {
+		    "label": "property: practices",
+		    "value": "https://encrypted.google.com/search?q=${item} practices"
+		}, {
+		    "label": "property: world view",
+		    "value": "https://encrypted.google.com/search?q=${item} world view"
+		}, {
+		    "label": "property: sacred texts",
+		    "value": "https://encrypted.google.com/search?q=${item} sacred texts"
+		}, {
+		    "label": "property: holy places",
+		    "value": "https://encrypted.google.com/search?q=${item} holy places"
+		}, {
+		    "label": "property: ethics",
+		    "value": "https://encrypted.google.com/search?q=${item} ethics"
+		}, {
+		    "label": "property: supernatural beings",
+		    "value": "https://encrypted.google.com/search?q=${item} supernatural beings"
+		}, {
+		    "label": "property: divine",
+		    "value": "https://encrypted.google.com/search?q=${item} divine"
+		}, {
+		    "label": "property: festival",
+		    "value": "https://encrypted.google.com/search?q=${item} festival"
+		}, {
+		    "label": "property: art",
+		    "value": "https://encrypted.google.com/search?q=${item} art"
+		}, {
+		    "label": "property: dance",
+		    "value": "https://encrypted.google.com/search?q=${item} dance"
+		}, {
+		    "label": "property: public service",
+		    "value": "https://encrypted.google.com/search?q=${item} public service"
+		}],
+		"list": [
+			"Christianity;Christian",
+			"Islam;Islamic",
+			"Secular",
+			"Hinduism",
+			"Chinese traditional",
+			"Buddhism",
+			"Ethnic religions",
+			"African traditional",
+			"Sikhism",
+			"Spiritism",
+			"Judaism",
+			"Bahá'í",
+			"Jainism",
+			"Shinto",
+			"Cao Dai",
+			"Zoroastrianism",
+			"Tenrikyo",
+			"Neo-Paganism",
+			"Unitarian Universalism",
+			"Rastafarianism"
+		]
+	},
+
+	{
+		"varname_my_list": "localnews_food_list",
+		"varname_current": "localnews_food_current",
+		"varname_query_label": "localnews_food_query_label",
+		"varname_top_item": "localnews_food_top_item",
+		"name": "cuisine",
+		"plural": "cuisines",
+		"queries": [{
+			"label": "google",
+			"value": "https://www.google.com/search?tbm=nws&q=${item} cuisine"
+		}, {
+			"label": "facebook",
+			"value": "https://www.facebook.com/search/latest/?q=${item} cuisine"
+		}, {
+			"label": "twitter",
+			"value": "https://twitter.com/search?q=${item} cuisine"
+		}, {
+			"label": "wikipedia",
+			"value": "https://en.wikipedia.org/w/index.php?title=Special:Search&search=${item} cuisine"
+		}, {
+		    "label": "property: recipe",
+		    "value": "https://encrypted.google.com/search?q=${item} recipe"
+		}, {
+		    "label": "property: cooking ingredients",
+		    "value": "https://encrypted.google.com/search?q=${item} cooking ingredients"
+		}, {
+		    "label": "property: cooking style",
+		    "value": "https://encrypted.google.com/search?q=${item} cooking style"
+		}, {
+		    "label": "property: spices",
+		    "value": "https://encrypted.google.com/search?q=${item} spices"
+		}, {
+		    "label": "property: dish",
+		    "value": "https://encrypted.google.com/search?q=${item} dish"
+		}],
+		"list": [
+			"Indonesian",
+			"Mexican",
+			"Chinese",
+			"Italian",
+			"Spanish",
+			"French",
+			"Japanese",
+			"Turkey",
+			"Indian",
+			"Thai",
+			"African",
+			"Americas",
+			"Asian",
+			"Europian",
+			"Oceanic",
+			"Fusion",
+			"Haute",
+			"Note by Note",
+			"Nouvelle",
+			"Vegan",
+			"Vegetarian"
+		]
+	},
+
+	{
+		"varname_my_list": "localnews_properties_list",
+		"varname_current": "localnews_properties_current",
+		"varname_query_label": "localnews_properties_query_label",
+		"varname_top_item": "localnews_properties_top_item",
+		"name": "property",
+		"plural": "properties",
+		"queries": [{
+		    "label": "google news",
+		    "value": "https://www.google.com/search?tbm=nws&q=${item}"
+		}, {
+		    "label": "google search",
+		    "value": "https://encrypted.google.com/search?q=${item}"
+		}, {
+		    "label": "facebook",
+		    "value": "https://www.facebook.com/search/latest/?q=${item}"
+		}, {
+		    "label": "twitter",
+		    "value": "https://twitter.com/search?q=${item}"
+		}, {
+		    "label": "wikipedia",
+		    "value": "https://en.wikipedia.org/w/index.php?title=Special:Search&search=${item}"
+		}],
+	    "list": [
+		"air pollution",
+		"ancestral",
+		"army",
+		"art",
+		"behaviour",
+		"blog",
+		"computer security",
+		"cooking ingredients",
+		"cooking style",
+		"court case",
+		"crime",
+		"cuisine",
+		"cultural heritage",
+		"culture",
+		"dance",
+		"diplomacy",
+		"dish",
+		"divine",
+		"dressing style",
+		"ethics",
+		"festival",
+		"finance",
+		"financial centre",
+		"gentrification",
+		"geography",
+		"government",
+		"headquarters",
+		"health care",
+		"history",
+		"holy places",
+		"homeland",
+		"homelessness",
+		"jurisdiction",
+		"language",
+		"law",
+		"legal",
+		"location",
+		"mythology",
+		"origin myth",
+		"physical appearance",
+		"politics",
+		"practices",
+		"press",
+		"profit",
+		"public service",
+		"recipe",
+		"religion",
+		"ritual",
+		"sacred texts",
+		"shares",
+		"slums",
+		"social",
+		"sovereign",
+		"spices",
+		"state",
+		"supernatural beings",
+		"surveillance",
+		"traffic congestion",
+		"urban sprawl",
+		"war",
+		"wealth",
+		"world view"
+		]
+	}
+
+]

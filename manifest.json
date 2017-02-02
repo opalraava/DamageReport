@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    
+    "name": "DamageReport",
+    "short_name": "DamageReport",
+    "description": "This gives you a daily damage report.",
+    "version": "0.1.0",
+    
+    "icons": { "128": "dmg_report-128.png" },
+    
+    "permissions": [ "activeTab", "storage" ],
+
+    "browser_action": {
+		"default_icon": "dmg_report-512.png",
+		"default_title": "DamageReport",
+		"default_popup": "popup.html"
+    }
+}
