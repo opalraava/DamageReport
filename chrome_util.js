@@ -1,12 +1,16 @@
 //
 // utility functions that use the chrome.* api
 function navigate(new_url) {
-    //    chrome.tabs.getSelected(null, function(tab) {
-    //        chrome.tabs.update(tab.id, {url : new_url});
-    //    });
+    /*
+    chrome.tabs.getSelected(null, function(tab) {
+        chrome.tabs.update(tab.id, {url : new_url});
+    });
+    */
 
-    var active_tab = browser.tabs.query({active: true});
-    chrome.tabs.update(active_tab.id, {url : new_url});
+    chrome.tabs.query({active: true}, function(active_tab) {
+	chrome.tabs.update(active_tab.id, {url : new_url});
+    });
+    
 }
 
 function storage_read_int(varname, succeed, fail) {
