@@ -3,7 +3,7 @@
     
     "name": "DamageReport",
     "short_name": "DamageReport",
-    "description": "This gives you a daily damage report.",
+    "description": "This gives you a damage report.",
     "version": "0.1.0",
     
     "icons": { "128": "dmg_report-128.png" },
