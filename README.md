@@ -9,5 +9,5 @@ Chrome users:
 * https://chrome.google.com/webstore/detail/hghemegphpnafddefbliemoialbbclic
 
 Firefox users:
-* 
+* https://addons.mozilla.org/en-US/firefox/addon/damagereport/
 
