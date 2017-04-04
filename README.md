@@ -11,3 +11,4 @@ Chrome users:
 Firefox users:
 * https://addons.mozilla.org/en-US/firefox/addon/damagereport/
 
+
