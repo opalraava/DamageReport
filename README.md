@@ -2,7 +2,8 @@
 
 This will report the damage.
 
-This extensions is a joke on the following tweet:
+This extensions is a joke on the following tweet which was sent a couple of weeks
+after Trump took office:
 * https://twitter.com/AnonyOps/status/826485257759100928
 
 Chrome users:
@@ -10,5 +11,3 @@ Chrome users:
 
 Firefox users:
 * https://addons.mozilla.org/en-US/firefox/addon/damagereport/
-
-
