@@ -1,5 +1,6 @@
 //
 // utility functions that use the chrome.* api
+//
 
 function navigate(new_url) {
   chrome.tabs.query({active: true}, function(active_tab) {
